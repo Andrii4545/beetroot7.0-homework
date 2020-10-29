@@ -16,13 +16,13 @@ body{
     background-color: white;
     border-radius: 10px;
     text-align: center;
-    align-content: center;
-    font-size: 1.5em;
+
+    font-size: 123%;
     transition: all .20s ease-in-out;
     font-family: 'Barlow Condensed', sans-serif;
 }
 p{
-    margin: 0.5em;
+    margin: 10px;
 }
 .item:hover{
     cursor: pointer;
@@ -34,8 +34,12 @@ p{
 .price {
     color: #02995B;
     font-weight: 800;
-    font-size: 2em;
+    font-size: 100%;
 }
-.item:active{
+.item:active {
     background-color: #eea1a1;
 }
+img, p{
+width: 90%;
+}
+
